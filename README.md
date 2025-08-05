@@ -28,5 +28,11 @@ Linstaller is a Free and Open Source utility for installing packages on various 
 - Add even more tools to setup Out-Of-The-Box
 - Finish support for Debian/Ubuntu and RHEL/Fedora and add other Package Managers
 
-# NOTE: This tool may require YAY for some of its functions for Arch Linux. 
+# NOTE: This tool may require YAY for some of its functions for Arch Linux. You also require Python for this tool to work properly.
 Build yay Manually or go into Tweaks -> Install YAY. PARU is not currently supported.
+To install python
+On Arch:
+```
+sudo pacman -S python
+```
+
