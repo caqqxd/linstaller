@@ -43,5 +43,6 @@ python3 linstaller-v1.py
 - A Kernel Manager for distros
 - Add even more tools to setup Out-Of-The-Box
 - Finish support for Debian/Ubuntu and RHEL/Fedora and add other Package Managers
-```
 
+# What's already half way there?
+- Kernel and Driver Manager (available for Arch Linux only)
