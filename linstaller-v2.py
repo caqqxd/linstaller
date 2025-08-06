@@ -2,10 +2,6 @@ import subprocess
 import sys
 import time
 
-curl_command = ['curl', 'https://github.com/caqqxd/linstaller/blob/main/linstaller-v1.py']
-
-subprocess.run(curl_command)
-
 # Arch Category
 def arch_category():
         subprocess.run("clear", shell=True)
@@ -693,5 +689,4 @@ def main():
                 time.sleep(2)
                 main()
 
-if __name__ == "__main__":
-    main()
+main()
