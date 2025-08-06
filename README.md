@@ -1,5 +1,5 @@
 # linstaller
-Linstaller is a Free and Open Source utility for installing packages on various distros in a CLI (Command-Line Interface).
+Linstaller is a Free and Open Source Python utility for installing packages on various distros in a CLI (Command-Line Interface).
 
 # What Distros are Currently Supported?
 
@@ -9,6 +9,22 @@ Linstaller is a Free and Open Source utility for installing packages on various 
 
 - Ubuntu/Debian + their flavors (e.g. Linux Mint, Lubuntu, Parrot Security, Kubuntu)
 - Red Hat Enterprise Linux/Fedora + their flavors (e.g. Nobara, Bazzite)
+
+TO Run it on Arch Linux:
+
+LATEST RELEASE:
+```
+sudo pacman -S python
+curl -O https://raw.githubusercontent.com/caqqxd/linstaller/refs/heads/main/linstaller-v2.py
+python3 linstaller-v2.py
+```
+
+OLDER RELEASE:
+```
+sudo pacman -S python
+curl -O https://raw.githubusercontent.com/caqqxd/linstaller/refs/heads/main/linstaller-v1.py
+python3 linstaller-v1.py
+```
 
 # What features does this tool offer?
 
@@ -27,12 +43,5 @@ Linstaller is a Free and Open Source utility for installing packages on various 
 - A Kernel Manager for distros
 - Add even more tools to setup Out-Of-The-Box
 - Finish support for Debian/Ubuntu and RHEL/Fedora and add other Package Managers
-
-# NOTE: This tool may require YAY for some of its functions for Arch Linux. You also require Python for this tool to work properly.
-Build yay Manually or go into Tweaks -> Install YAY. PARU is not currently supported.
-To install python
-On Arch:
-```
-sudo pacman -S python
 ```
 
