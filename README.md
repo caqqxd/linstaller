@@ -15,14 +15,14 @@ TO Run it on Arch Linux:
 LATEST RELEASE:
 ```
 sudo pacman -S python
-curl -O https://raw.githubusercontent.com/caqqxd/linstaller/refs/heads/main/linstaller-v2.py
+curl -O https://raw.githubusercontent.com/caqqxd/linstaller/refs/heads/main/linstaller-v2.5.py
 python3 linstaller-v2.py
 ```
 
 OLDER RELEASE:
 ```
 sudo pacman -S python
-curl -O https://raw.githubusercontent.com/caqqxd/linstaller/refs/heads/main/linstaller-v1.py
+curl -O https://raw.githubusercontent.com/caqqxd/linstaller/refs/heads/main/linstaller-v2.py
 python3 linstaller-v1.py
 ```
 
